@@ -1,0 +1,51 @@
+/* Particle animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.2;
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-40px) translateX(-10px);
+    opacity: 0.6;
+  }
+  75% {
+    transform: translateY(-20px) translateX(-5px);
+    opacity: 0.4;
+  }
+}
+
+/* Enhanced glow effects for dark mode */
+.dark .neon-glow {
+  text-shadow: 
+    0 0 5px rgba(239, 68, 68, 0.5),
+    0 0 10px rgba(239, 68, 68, 0.3),
+    0 0 15px rgba(239, 68, 68, 0.2),
+    0 0 20px rgba(239, 68, 68, 0.1);
+}
+
+/* Orange glow for light mode */
+:not(.dark) .neon-glow {
+  text-shadow: 
+    0 0 5px rgba(249, 115, 22, 0.5),
+    0 0 10px rgba(249, 115, 22, 0.3),
+    0 0 15px rgba(249, 115, 22, 0.2);
+}
+
+/* Enhanced skill bar glow */
+.dark .skill-bar {
+  box-shadow: 
+    0 0 10px rgba(239, 68, 68, 0.5),
+    0 0 20px rgba(239, 68, 68, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+:not(.dark) .skill-bar {
+  box-shadow: 
+    0 0 10px rgba(249, 115, 22, 0.4),
+    0 0 20px rgba(249, 115, 22, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
