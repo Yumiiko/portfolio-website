@@ -14,9 +14,9 @@ export const projects = {
         en: "A responsive portfolio website featuring dark/light mode toggle, bilingual support (EN/HU), and interactive project showcases. Built with React, Tailwind CSS, and Vite for optimal performance.",
         hu: "Reszponzív portfólió weboldal sötét/világos mód váltóval, kétnyelvű támogatással (EN/HU) és interaktív projekt bemutatókkal. React, Tailwind CSS és Vite felhasználásával készült optimális teljesítmény érdekében."
       },
-      mainImage: "/portfolio-website/public/images/portfolio1.png",
+      mainImage: "./images/portfolio1.png",
       images: [
-        "/portfolio-website/public/images/portfolio1.png",
+        "./images/portfolio1.png",
         "/portfolio-website/public/images/portfolio2.png",
         "/portfolio-website/public/images/portfolio3.png",
         "/portfolio-website/public/images/portfolio4.png",
